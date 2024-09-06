@@ -26,7 +26,7 @@ The C++ code in the current repository is pre-compiled for Windows and can be ex
 *Windows*
 	
 	g++ -c .\mark0_inflation_shock.cpp -I"C:\Program Files (x86)\GnuWin32\include" -Wall
-  g++ -static mark0_inflation_shock.o -L"C:\Program Files (x86)\GnuWin32\lib" -lgsl -lgslcblas -lm -o mark0_inflation_shock
+        g++ -static mark0_inflation_shock.o -L"C:\Program Files (x86)\GnuWin32\lib" -lgsl -lgslcblas -lm -o mark0_inflation_shock
 	
 ## Contact
 For any code related issue, please open an issue here or do not hesitate to send an email to
