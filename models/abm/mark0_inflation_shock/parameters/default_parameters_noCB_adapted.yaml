@@ -1,0 +1,24 @@
+R0: 2.0          # Ratio of hiring-firing rate
+theta: 3.0       # Maximum credit supply available to firms
+Gamma0: 0.0      # Financial Fragility sensitivity
+rho0: 0.0        # Baseline interest rate
+alpha: 0.0       # Influence of deposit rates on consumption
+phi_pi: 0.0      # Intensity of interest rate policy of central bank
+alpha_e: 0.0     # Influence of employment on interest rate policy of central bank
+pi_target: 0.0   # Inflation Target
+e_target: 0.0    # Employment Target
+tau_tar: 0.0     # Inflation target parameter
+wage_factor: 1.0 # Factor to adjust wages to inflation expectations
+y0: 0.5          # Initial production
+gammap: 0.01     # Parameter to set adjustment of prices
+eta0m: 0.2       # Firing propensity
+tau_r: 0.0       # Realised inflation parameter
+alpha_g: 0.0     # Influence of loans interest rate on hiring-firing policy
+zeta: 1.0        # Labor productivity factor
+kappa: 1.25      # Offset for adaptive policy
+G0: 0.5          # Fraction of savings to consume
+phi: 0.1         # Revival probability per unit time
+omega: 0.2       # Parameter for moving average
+delta: 0.02      # Fraction of dividends to be distributed
+gamma_e: 1.0     # Factor of price change
+delta_p: 0.02    # Price change

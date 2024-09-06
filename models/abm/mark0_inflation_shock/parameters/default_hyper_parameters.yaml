@@ -1,0 +1,22 @@
+seed: 0            # Seed for random number generation
+N: 10000           # Number of firms in the economy
+T: 6000            # Simulation Time
+Teq: 200           # Equilibration time
+tprint: 1          # Frequency to write to output file
+renorm: 1          # Renormalize in units of the price 
+cbon: 0            # Switch on CB at end of shock
+extra_steps: 1.0   # Number of time steps during which consumption is higher than baseline
+extra_cons: 0.0    # Agents consume more after shock
+
+zfactor: 0.5       # Factor by which to reduce production during shock
+cfactor: 0.5       # Factor by which to reduce consumption during shock
+shockflag: 0       # Flag to set kind of shock
+t_start: 2000      # Time when shock occurs
+t_end: 2005        # Time when shock end
+policy_start: 2000 # Time when debt policy starts
+policy_end: 2005   # Time when debt policy ends
+price_start: 4000  # Start of price shock
+price_end: 4000    # End of price shock
+tprod: 0.0         # Additional time for production shock
+helico: 0.0        # Do helicopter money drop
+adapt: 0.0         # Have adaptive policy
