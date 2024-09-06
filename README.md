@@ -3,7 +3,7 @@
 This repository contains the code used for the paper "Post-COVID Inflation and the Monetary Policy Dilemma: An Agent-Based Scenario Analysis". 
 
 ## Reference
-- Knicker et al. (2024) *Post-COVID Inflation & the Monetary Policy Dilemma: An Agent-Based Scenario Analysis ([Link to Paper](https://link.springer.com/article/10.1007/s11403-024-00413-3))
+- Knicker et al. (2024) *Post-COVID Inflation & the Monetary Policy Dilemma: An Agent-Based Scenario Analysis* ([Link to Paper](https://link.springer.com/article/10.1007/s11403-024-00413-3))
 
 ## Usage & Structure
 The Mark0 model (written in C++) can be found in the `models/` directory. For the model there is a `.py` file, `mark0_inflation_shock.py`, that is the Python interface for the model. 
